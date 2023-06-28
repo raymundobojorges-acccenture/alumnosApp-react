@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .formulario {
+    flex:1;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  
+  .tabla {
+    flex: 2;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group select {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .form-group select {
+    margin-top: 5px;
+  }
+    
+  button {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3367D6;
+  }
+  
+  .alumnos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .contador-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .contador {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .contador span {
+    color: #ff0000;
+  }
+  
+  .error-message {
+    color: #ff0000;
+  }
+  
